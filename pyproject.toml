@@ -23,12 +23,15 @@ dev = [
     "ruff~=0.12"
 ]
 
+[project.license]
+file = "LICENSE"
+
 [[project.authors]]
 name = "Latent AI"
 email = "support@latentai.com"
 
-[project.license]
-file = "LICENSE"
-
 [project.urls]
 homepage = "https://latentai.com/"
+
+[tool.ruff]
+line-length = 120
